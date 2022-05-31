@@ -1,14 +1,12 @@
 {
-  "name": "pathfinder-ui",
-  "title": "Pathfinder Ui v3",
-  "description": "Theme only for Pathfinder 2e. <p>*** Join the official Discord server: <a href=\"https://discord.gg/foundryvtt\"> Official Discord</a></p><p>*** Rejoignez la communauté Francophone: <a href=\"https://discord.gg/pPSDNJk\">Francophone Discord</a></p>",
-  "author": "Sasmira",
+  "name": "pathfinder-ui-cc-only",
+  "title": "Pathfinder UI CC Only",
+  "description": "Samsira's UI for Pathfinder but only impacting Combat Carousel in case you want to run Dorako UI with it.",
+  "author": "Brendan",
     "authors": [
         {
-            "name": "Sasmira",
-            "email": "sasmyra@gmail.com",
-            "url": "https://gitlab.com/sasmira/pathfinder-ui",
-            "Discord": "Sasmira#4566"
+            "name": "Brendan",
+            "url": "https://github.com/brendanpatrickmurphy/Pathfinder-UI-CC-Only"
         }
     ],
   "flags": {},
@@ -18,9 +16,6 @@
   "scripts": [
     "scripts/rpg-ui.js"
   ],
-  "esmodules": [
-    "scripts/dicefinder.js"
-  ],
   "styles": [],
   "languages": [
     {
@@ -28,29 +23,12 @@
       "name": "English",
       "path": "lang/en.json"
     },
-    {
-      "lang": "fr",
-      "name": "French (Français)",
-      "path": "lang/fr.json"
-    },
-    {
-      "lang": "es",
-      "name": "Spanish (Español)",
-      "path": "lang/es.json"
-    },
-    {
-      "lang": "de",
-      "name": "German (Deutch)",
-      "path": "lang/de.json"
-    }
   ],
   "packs": [],
   "system": ["pf2e"],
   "dependencies": [],
   "socket": false,
-  "url": "https://gitlab.com/sasmira/pathfinder-ui",
-  "manifest": "https://gitlab.com/sasmira/pathfinder-ui/-/raw/master/module/module.json",
-  "download": "https://gitlab.com/sasmira/pathfinder-ui/-/jobs/artifacts/v9.269.3/raw/pathfinder-ui.zip?job=build",
+  "url": "https://github.com/brendanpatrickmurphy/Pathfinder-UI-CC-Only",
   "protected": false,
   "coreTranslation": false,
   "library": false
